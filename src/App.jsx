@@ -7,11 +7,6 @@ const MainContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-
-  /* - White: hsl(0, 0%, 100%)
-- Light gray: hsl(212, 45%, 89%)
-- Grayish blue: hsl(220, 15%, 55%)
-- Dark blue: hsl(218, 44%, 22%) */
 `;
 const Card = styled.div`
   width: 270px;
@@ -71,7 +66,7 @@ function App() {
           </ImageContainer>
           <CardBody>
             <CardTitle>
-              Improve your front-end skills by building real projects
+              Improve your front-end skills by building projects
             </CardTitle>
             <CardText>
               Scan the QR code to visit Frontend Mentor and take you coding
@@ -79,18 +74,6 @@ function App() {
             </CardText>
           </CardBody>
         </Card>
-        {/* <div className="attribution">
-          Challenge by{" "}
-          <a
-            href="https://www.frontendmentor.io?ref=challenge"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Frontend Mentor
-          </a>
-          . Coded by{" "}
-          <a href="https://github.com/WanderFeliz">Wander Paniagua</a>.
-        </div> */}
       </MainContainer>
     </>
   );
